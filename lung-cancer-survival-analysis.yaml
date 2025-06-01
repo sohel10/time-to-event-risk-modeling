@@ -1,0 +1,27 @@
+lung-cancer-survival-analysis/
+│
+├── README.md                   # Project overview and instructions
+├── LICENSE                      # (Optional) Open source license like MIT
+│
+├── data/                        
+│   ├── subjinfo.csv             # (if allowed) Data sample or schema
+│   ├── ttevent.csv
+│   ├── events.csv
+│   ├── bor.csv
+│   ├── exsum.csv
+│   └── [Note: If restricted, just place a text file describing data]
+│
+├── code/
+│   ├── lung_cancer_survival_analysis.sas    # Main SAS script
+│   ├── lung_cancer_cox_model.sas            # Cox model SAS script (Optional if separated)
+│   └── data_dictionary.md                   # Variable descriptions (Optional but helpful)
+│
+├── results/
+│   ├── survival_curves.pdf       # Kaplan-Meier survival plots
+│   ├── cox_model_summary.pdf     # Cox model output
+│   ├── adverse_events_summary.pdf
+│   └── final_merged_clinical_data.csv
+│
+└── images/                       # Any plots or charts (optional if not embedding)
+    ├── survival_plot.png
+    └── hazard_ratio_forestplot.png
