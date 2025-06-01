@@ -1,3 +1,18 @@
+# 🧬 Lung Cancer Survival Analysis Using Project Data Sphere Clinical Trial Data
+
+## 📋 Overview
+This project performs a comprehensive survival analysis using publicly available lung cancer clinical trial data from **Project Data Sphere**. The analysis includes:
+
+- Data integration and cleaning
+- Kaplan-Meier survival estimation stratified by treatment arms
+- Log-rank tests for survival curve comparison
+- Cox proportional hazards regression modeling based on age, sex, and treatment type
+
+---
+
+## 📂 Repository Structure
+
+```yaml
 lung-cancer-survival-analysis/
 │
 ├── README.md                   # Project overview and instructions
