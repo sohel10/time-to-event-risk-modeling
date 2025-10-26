@@ -7,6 +7,7 @@ This is structurally identical to:
 - prioritizing high-churn accounts in a subscription business,
 - triaging which regions get promo spend or retention campaigns first.
 
+
 Tech stack:
 - SAS for model fitting and inference
 - Hazard models and logistic regression
