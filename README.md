@@ -1,14 +1,17 @@
-# 🧬 Lung Cancer Survival Analysis Using Project Data Sphere Clinical Trial Data
+# High-Risk Segmentation Modeling
 
-## 📋 Overview
-This project conducts a survival analysis using publicly available lung cancer clinical trial data from **Project Data Sphere**. The analysis includes:
+Goal: rank segments by future risk so limited intervention resources can be allocated where impact is highest.
 
-- Data integration and cleaning
-- Kaplan-Meier survival estimation stratified by treatment arms
-- Log-rank tests for survival curve comparison
-- Cox proportional hazards regression modeling based on age, sex, and treatment type
+This is structurally identical to:
+- lead scoring in marketing,
+- prioritizing high-churn accounts in a subscription business,
+- triaging which regions get promo spend or retention campaigns first.
 
----
+Tech stack:
+- SAS for model fitting and inference
+- Hazard models and logistic regression
+- Segment-level risk scoring and lift charts
+
 
 ## ⚙️ Workflow
 
